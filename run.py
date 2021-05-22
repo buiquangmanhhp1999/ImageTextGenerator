@@ -9,14 +9,14 @@ import string
 import sys
 
 from tqdm import tqdm
-from trdg.string_generator import (
+from string_generator import (
     create_strings_from_dict,
     create_strings_from_file,
     create_strings_from_wikipedia,
     create_strings_randomly,
 )
-from trdg.utils import load_dict, load_fonts
-from trdg.data_generator import FakeTextDataGenerator
+from utils import load_dict, load_fonts
+from data_generator import FakeTextDataGenerator
 from multiprocessing import Pool
 
 
