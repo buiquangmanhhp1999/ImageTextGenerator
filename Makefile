@@ -1,7 +1,7 @@
 pwd=$(CURDIR)
 
 gen-id:
-	python3 run.py -c 500 -w 1 -f 20 -b 3 \
+	python3 run.py -c 500 -w 1 -f 32 -b 3 \
 	--blur 0 \
 	--input_file data/test_data.txt \
 	--output_dir $(pwd)/out/ \
